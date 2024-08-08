@@ -1,0 +1,38 @@
+.cursor {
+    z-index: 9999; /* Ensure it is on top of other elements */
+    mix-blend-mode: difference; /* Blends the cursor with the background */
+  }
+
+.intro-container {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  position: relative;
+}
+
+/* Styles for larger screens */
+.intro-text-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60vw;
+  padding: 1rem;
+  font-size: 45px;
+  font-weight: normal;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+  .intro-container {
+    height: 120vh;
+  }
+  .intro-text-container {
+    height: 40vh; /* Ensure it fits within a smaller box */
+    font-size: 25px; /* Smaller font size */
+    padding: 0.25rem; /* Adjust padding */
+    border: 1px solid #ffffff; /* Add a border to create a box effect */
+    border-radius: 8px; /* Optional: add rounded corners */
+    overflow: auto; /* Enable scrolling if content overflows */
+  }
+}

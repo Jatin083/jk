@@ -1,0 +1,13 @@
+/* src/components/AnimatedText.module.css */
+.body {
+  /* font-size: 5vw; Adjust size as needed */
+}
+
+.lineMask {
+  overflow: hidden; /* Ensures text doesn't overflow */
+}
+
+.lineMask p {
+  margin: 0;
+  font-weight: 700;
+}
