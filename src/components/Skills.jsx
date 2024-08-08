@@ -111,7 +111,7 @@ const Skills = () => {
   return (
     <div ref={sectionRef} className='min-h-screen w-full'>
       <div className='my-10 flex justify-center h-[12vh]  w-full'>
-        <h1 className='text-7xl font-normal h-full  text-white fixed'>Skills</h1>
+        <h1 className='text-7xl font-normal h-full max-md:my-[5vh]  text-white fixed'>Skills</h1>
       </div>
       <div className='flex flex-wrap w-[70%] gap-[2vh] p-[0vw,5vw] max-md:h-[10vh]  justify-center text-white mx-auto'>
         <h2 className='skill-item2 max-md:text-[6vw] p-[1vw,2vw] text-[3vw] px-5 rounded-[50px] font-normal transition-all duration-1000 ease-[cubic-bezier(0.19,1,0.22,1)] border-[1px] border-white'>Figma</h2>
