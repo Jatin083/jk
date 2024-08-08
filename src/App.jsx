@@ -63,7 +63,7 @@ function App() {
           <div className="">
             <Title value="About ME" />
             <Intro />
-          </div>
+          </div><br/>
         </div>
         <div className="overflow-hidden  bg-black">
           <Skills />
