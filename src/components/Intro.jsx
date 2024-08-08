@@ -15,7 +15,7 @@ const Intro = () => {
 
   return (
     <div className='h-[90vh] w-full flex justify-center  bg-transparent  max-md:h-[120vh] relative'>
-      <div className='flex word-wrap max-md:h-[40vh] max-md:w-vw] w-[60vw]  px-4  justify-center text-[45px] max-md:text-[25px]  max-md:px-1 font-normal'>
+      <div className='flex word-wrap max-md:h-[40vh] max-md:w-[65vw] w-[60vw]  px-4  justify-center text-[45px] max-md:text-[25px]  max-md:px-1 font-normal'>
         <AnimatedText phrases={introPhrases} />
       </div>
     </div>
