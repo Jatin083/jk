@@ -10,6 +10,6 @@ Welcome to my portfolio repository! This is where I document my journey and grow
 - **Cutting-Edge Techniques**: I continuously explore and apply the latest trends and best practices in web development, ensuring that my projects are up-to-date with the current standards.
 
 
----
+--
 
 Thank you for visiting, and I hope you enjoy exploring my portfolio!
